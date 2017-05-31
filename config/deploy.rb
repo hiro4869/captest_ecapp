@@ -15,7 +15,7 @@ set :deploy_to, '/var/www/captest_ecapp'
 
 # シンボリックリンクをはるファイル。(※後述)
 #settings.ymlからsecrets.ymlに変更
-set :linked_files, fetch(:linked_files, []).push('config/secrets.yml', 'config/settings.yml')
+set :linked_files, fetch(:linked_files, []).push('config/secrets.yml', 'config/settings.yml', 'config/database.yml')
 
 # シンボリックリンクをはるフォルダ。(※後述)
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
