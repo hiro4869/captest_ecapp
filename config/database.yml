@@ -34,5 +34,6 @@ production:
   # socket: /var/lib/mysql/mysql.sock
 
 #gitignoreテスト
+#config/database.ymlで行って見る
 
 
