@@ -26,6 +26,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'devise'
 
 gem 'carrierwave'
+gem 'fog-aws'
 gem 'rmagick'
 
 gem 'kaminari'

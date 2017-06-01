@@ -26,6 +26,9 @@
 #データベース情報を無視
 /config/database.yml
 
+#S3のファイルを無視
+/config/initializers/carrierwave.rb
+
 #RDSに接続してユニコーンを再起動
 #日本語に対応して見る
 
