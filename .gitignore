@@ -23,4 +23,5 @@
 #環境変数ファイルを無視
 /config/settings.yml
 
+#データベース情報を無視
 /config/database.yml
