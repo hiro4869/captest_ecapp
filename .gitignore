@@ -27,4 +27,5 @@
 /config/database.yml
 
 #RDSに接続してユニコーンを再起動
+#日本語に対応して見る
 
